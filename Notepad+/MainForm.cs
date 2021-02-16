@@ -10,9 +10,6 @@ using System.Windows.Forms;
 
 namespace Notepad_
 {
-    // Из основного функционала нет возможности открытия документа в новом окне.
-    // Из дополнительного функционала не реализована компиляция кода.
-
     public partial class MainForm : Form
     {
         static RichTextBox currentTextBox;
